@@ -1,0 +1,65 @@
+body {
+    background-color: gray;
+    height: 100vh;
+}
+
+.wrapper {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.logo {
+    float:left;
+}
+
+.logo h2 {
+    color:blue;
+}
+
+.menu-button {
+background-color: transparent;
+color: blue;
+padding: 16px;
+font-size: 16px;
+cursor: pointer;
+border: 1px solid #000;
+}
+
+.right-menu {
+    position: relative;
+    
+    float: right;
+
+}
+
+.drop-down-menu {
+    display:none;
+    position: absolute;
+    background-color:
+    min-width:160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+
+
+}
+
+.drop-down-menu a {
+    color:black;
+    padding:12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.drop-down-menu a:hover{
+    background-color: #000;
+    color:#fff;
+}
+
+.right-menu:hover .drop-down-menu {
+    display:block;
+
+}
+
+.right-menu:hover .menu-button {
+    background-color: transparent;
+}
